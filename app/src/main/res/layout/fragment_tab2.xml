@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tab2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Nama : NGINX" />
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="33dp"
+        android:src="@drawable/nginx" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text=" NGINX adalah software web server yang open source. Ketika pertama kali dirilis, NGINX hanya berfungsi sebagai HTTP web serving saja. Namun sekarang, software tersebut juga berperan sebagai reverse proxy, HTTP load balancer, dan email proxy ." />
+    </LinearLayout>
+
+</FrameLayout>
